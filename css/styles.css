@@ -1,0 +1,166 @@
+/*CSS RESET*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*UNIVERSAL Styles*/ 
+.container {
+    width: 1080px; 
+    margin: 0 auto; 
+    padding-top: 77px; 
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif; 
+}
+
+h2 {
+    padding: 11px; 
+}
+
+.main-header{
+    background-color: #333; 
+    color: #fff; 
+    width: 100%; 
+    padding: 20px; 
+    position: sticky; 
+    top: 0; 
+}
+
+#logo {
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+.intro p {
+    font-weight: 100; 
+    font-size: 25px; 
+}
+
+.colors, .type, .text, .buttons {
+    width: 90%;
+    height: 417px; 
+    margin-top: 40px; 
+    border: 3px solid #333; 
+    border-radius: 4px; 
+}
+
+.style-box {
+    background-color: #fff; 
+    border-radius: 1px; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center; 
+    height: 347px; 
+    
+}
+
+.red-box {
+    width: 212px; 
+    height: 184px;
+    color: #fff;
+    background-color:#d63031; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    font-weight: bold; 
+    font-size: 1.2rem; 
+}
+
+.black-box {
+    width: 212px; 
+    height: 184px;
+    background-color: #2d3436;
+    color: #fff; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    font-weight: bold; 
+    font-size: 1.2rem; 
+
+}
+
+.gray-box {
+    width: 212px; 
+    height: 184px;
+    background-color: #b2bec3;
+    color: #fff; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    font-weight: bold; 
+    font-size: 1.2rem; 
+}
+
+.type-box{
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-items: center; 
+    height: 276px; 
+}
+
+.roboto-title, .open-sans-title {
+    text-decoration: underline; 
+    font-size: 19px; 
+    font-weight: bold;  
+}
+
+.type p {
+    font-size: 21px; 
+    padding: 10px 0; 
+}
+
+.font-weight-bold {
+    font-weight: 600; 
+}
+
+.font-weight-light {
+    font-weight: 100; 
+}
+
+.open-sans p {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.text-box{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    height: 272px; 
+    flex-direction:
+
+}
+
+.subheading h2 {
+    padding: 0px; 
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #333; 
+    width: 100%; 
+    padding: 30px; 
+    color: #fff; 
+    margin-top: 30px; 
+}
+
+footer p {
+    text-align: center; 
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px; 
+    font-family: 'Roboto Flex', sans-serif;
+}
